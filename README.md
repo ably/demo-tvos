@@ -1,4 +1,4 @@
-# Ably tcOS Framework Example Project
+# Ably tvOS Framework Example Project
 
 Start by building all the dependencies using [Carthage](https://github.com/Carthage/Carthage):
 
