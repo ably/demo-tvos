@@ -163,7 +163,7 @@
 				"$(SRCROOT)/Carthage/Build/tvOS/KSCrash.framework",
 				"$(SRCROOT)/Carthage/Build/tvOS/msgpack.framework",
 				"$(SRCROOT)/Carthage/Build/tvOS/SAMKeychain.framework",
-				"$(SRCROOT)/Carthage/Build/tvOS/SocketRocket.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/SocketRocketAblyFork.framework",
 				"$(SRCROOT)/Carthage/Build/tvOS/ULID.framework",
 			);
 			name = Carthage;
