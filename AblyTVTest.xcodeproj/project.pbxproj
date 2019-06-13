@@ -11,12 +11,7 @@
 		D7A0B79521C284B0007253D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A0B79421C284B0007253D9 /* ViewController.swift */; };
 		D7A0B79821C284B0007253D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A0B79621C284B0007253D9 /* Main.storyboard */; };
 		D7A0B79A21C284B2007253D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7A0B79921C284B2007253D9 /* Assets.xcassets */; };
-		D7A0B7A921C2861F007253D9 /* KSCrash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A0B7A321C2861F007253D9 /* KSCrash.framework */; };
 		D7A0B7AA21C2861F007253D9 /* Ably.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A0B7A421C2861F007253D9 /* Ably.framework */; };
-		D7A0B7AB21C2861F007253D9 /* SAMKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A0B7A521C2861F007253D9 /* SAMKeychain.framework */; };
-		D7A0B7AC21C2861F007253D9 /* msgpack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A0B7A621C2861F007253D9 /* msgpack.framework */; };
-		D7A0B7AD21C2861F007253D9 /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A0B7A721C2861F007253D9 /* SocketRocket.framework */; };
-		D7A0B7AE21C2861F007253D9 /* ULID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A0B7A821C2861F007253D9 /* ULID.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,12 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7A0B7A921C2861F007253D9 /* KSCrash.framework in Frameworks */,
 				D7A0B7AA21C2861F007253D9 /* Ably.framework in Frameworks */,
-				D7A0B7AB21C2861F007253D9 /* SAMKeychain.framework in Frameworks */,
-				D7A0B7AC21C2861F007253D9 /* msgpack.framework in Frameworks */,
-				D7A0B7AD21C2861F007253D9 /* SocketRocket.framework in Frameworks */,
-				D7A0B7AE21C2861F007253D9 /* ULID.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +116,7 @@
 				TargetAttributes = {
 					D7A0B78E21C284B0007253D9 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -347,7 +338,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.ably.AblyTVTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 			};
 			name = Debug;
@@ -369,7 +360,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.ably.AblyTVTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 			};
 			name = Release;
